@@ -140,4 +140,4 @@ resources:
       description: The total memory used by Docker containers.
 {% endconfiguration %}
 
-Not all platforms are able to provide all metrics. For instance `cpu_temp` is requires installing and configuring `lmsensors` in Ubuntu, and may not be available at all in other platforms.
+Not all platforms are able to provide all metrics. For instance `cpu_temp` is requires installing and configuring `lm-sensors` in Ubuntu, and may not be available at all in other platforms.
